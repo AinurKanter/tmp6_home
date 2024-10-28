@@ -10,7 +10,7 @@
             margin: 20px;
         }
         .button {
-            background-color: #4CAF50; /* Зеленый цвет */
+            background-color: #ff0000; /* Красный цвет */ /* Изменено */
             border: none;
             color: white;
             padding: 15px 32px;
