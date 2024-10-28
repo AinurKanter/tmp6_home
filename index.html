@@ -10,7 +10,7 @@
             margin: 20px;
         }
         .button {
-            background-color: #ff0000; /* Красный цвет */ /* Изменено */
+            background-color: #ff0000; /* Красный цвет */
             border: none;
             color: white;
             padding: 15px 32px;
@@ -20,6 +20,14 @@
             font-size: 16px;
             margin: 4px 2px;
             cursor: pointer;
+        }
+        .social-buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .social-button {
+            margin: 0 10px;
         }
     </style>
 </head>
@@ -31,5 +39,21 @@
     <p>Я заинтересован в спать и готов к новым вызовам. В свободное время я делаю сальто назад.  </p>
 
     <button class="button">Подписаться на новости</button>
+
+    <div class="social-buttons">
+        <button class="social-button">
+            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" width="30">
+            Войти через GitHub
+        </button>
+        <button class="social-button">
+            <img src="https://telegram.org/img/t_logo.png" alt="Telegram" width="30">
+            Войти через Telegram
+        </button>
+        <button class="social-button">
+            <img src="https://www.freepnglogos.com/uploads/vk-logo-png/vk-logo-png-1.png" alt="VK" width="30">
+            Войти через VK
+        </button>
+    </div>
+
 </body>
 </html>
